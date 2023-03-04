@@ -165,6 +165,16 @@ describe('/schedules/:scheduleId/users/:userId/comments', () => {
         });
     });
   });
+
+  it('テスト', (done) => {
+    request(app)
+      .post('http://localhost:8000/schedules/c3b8086b-2929-40c2-adae-0651ba780fa2/users/54149732/coments')
+      .send({ comment: '騙されましたね'})
+      .expect('{"status":"OK","comment":"騙されましたね"}')
+      .end((err, res) => {
+        done();
+      })
+  })
 });
 
 describe('/schedules/:scheduleId?edit=1', () => {

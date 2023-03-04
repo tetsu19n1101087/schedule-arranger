@@ -5,6 +5,8 @@ const authenticationEnsurer = require('./authentication-ensurer');
 const Comment = require('../models/comment');
 
 router.post('/:scheduleId/users/:userId/comments', authenticationEnsurer, (req, res, next) => {
+  console.log(req.headers)
+  console.log(`\nURLは、${req.originalUrl}\n`);
   const scheduleId = req.params.scheduleId;
   const userId = req.params.userId;
   const comment = req.body.comment;

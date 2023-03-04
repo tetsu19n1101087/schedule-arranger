@@ -87,6 +87,10 @@ app.use('/schedules', schedulesRouter, availabilitiesRouter, commentsRouter);
 // app.use('/schedules', availabilitiesRouter);
 // app.use('/schedules', commentsRouter);
 
+app.get('/test', (req, res, next) => {
+  res.render('test');
+})
+
 app.get('/auth/github',
   passport.authenticate('github', { scope: ['user:email'] }),
   function (req, res) {
