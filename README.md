@@ -3,13 +3,13 @@
 スケジュールを調整し、できるだけ多くの人が参加できる適切な予定日時を決定するためのサービスです。
 GitHubのアカウントでログインできます。
 
-ホーム画面
+ホーム画面  
 <img width="500" src="public/images/image1.png">
 
-予定作成ページ
+予定作成ページ  
 <img width="500" src="public/images/image2.png">
 
-出欠確認ページ
+出欠確認ページ  
 <img width="500" src="public/images/image3.png">
 
 [リンクはこちら](https://schedule-arranger-ch6e.onrender.com/)
