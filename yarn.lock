@@ -1938,6 +1938,11 @@ base64-url@1.2.1:
   resolved "https://registry.yarnpkg.com/base64-url/-/base64-url-1.2.1.tgz#199fd661702a0e7b7dcae6e0698bb089c52f6d78"
   integrity sha512-V8E0l1jyyeSSS9R+J9oljx5eq2rqzClInuwaPcyuv0Mm3ViI/3/rcc4rCEO8i4eQ4I0O0FAGYDA2i5xWHHPhzg==
 
+base64-vlq@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/base64-vlq/-/base64-vlq-0.0.5.tgz#2302a558af53947d52c4c7043f6c810728b5c697"
+  integrity sha512-hdKTk0GxxrvTxYWeB28n1vuTGflEmQPMnGcAgbgxwm0mfL5t+1SlnXIRPejaLdYl94LvbmwYcdGpeVw/sDxhdQ==
+
 base64url@3.x.x:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/base64url/-/base64url-3.0.1.tgz#6399d572e2bc3f90a9a8b22d5dbb0a32d33f788d"

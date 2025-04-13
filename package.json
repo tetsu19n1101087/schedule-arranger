@@ -8,6 +8,7 @@
     "test": "npx jest --testTimeout=10000 --forceExit"
   },
   "dependencies": {
+    "base64-vlq": "^0.0.5",
     "bootstrap": "4.0.0",
     "cookie-parser": "~1.4.3",
     "csurf": "1.8.3",
