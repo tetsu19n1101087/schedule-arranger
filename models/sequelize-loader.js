@@ -12,7 +12,8 @@ const sequelize = process.env.DATABASE_URL ?
     process.env.DATABASE_URL,
     {
       logging: false,
-      dialectOptions
+      dialectOptions,
+      dialectModule: require('pg')
     }
   )
   :
